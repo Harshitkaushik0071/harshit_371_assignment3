@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #e74c3c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+#about p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-size: 1.5em;
+  color: #e74c3c;
+}
+
+.project-card p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+form button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #c0392b;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1em;
+}
